@@ -3,6 +3,7 @@
 FvFramework4Students v1.1c is a MATLAB teaching framework for the course Numerical Techniques in Fluid Dynamics (NTFD). It provides the scaffolding to implement cell‑centred finite volume (FV) discretisations in 2‑D: mesh/domain geometry, field containers, a sparse linear‑system bridge, and plotting utilities. You write the physics (coefficients, boundary conditions, iteration); the framework handles the bookkeeping.
 
 This README expands on the framework in the context of the NTFD sessions and the accompanying slides (Session 1: Practicalities & MATLAB framework; Session 2: Steady‑state Diffusion).
+GOOFY MFER
 
 ## Quick Start
 
