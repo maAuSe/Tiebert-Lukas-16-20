@@ -1,0 +1,9 @@
+FvFramework4Students v1.0c License notice
+
+Usage of this package, its components, or (parts of) the source code 
+is only permitted to students and personnel of the K.U.Leuven. 
+Usage is restricted to didactical purposes and personal study.
+
+This software package was developed by Frederik Rogiers.
+
+(C) 2008-2025 Katholieke Universiteit Leuven (K.U.Leuven)

@@ -1,0 +1,5 @@
+calc_fCentr
+calc_fArea
+calc_fNormal
+calc_fTangent
+calc_fXi

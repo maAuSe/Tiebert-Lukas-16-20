@@ -1,0 +1,19 @@
+function requirerowarray(var,rowlength)
+        
+    if size(var,1) ~= 1
+        
+        ME = MException('FvmLab:TypeChecker:NoRowArray',...
+           ['\nFVMLab:TypeChecker:NoRowArray',...
+            '\nThe supplied data is not ordered in a row'...
+            '\n']);
+        throwAsCaller(ME);
+    end
+    if nargin == 2 && size(var,2) ~= rowlength
+        ME = MException('FVMLab:TypeChecker:UnexpectedRowLength',...
+           ['\nFVMLab:TypeChecker:UnexpectedRowLength',...
+            '\nThe supplied data does not have the required row length of %g'...
+            '\n'],rowlength);
+        throwAsCaller(ME);
+    end
+        
+end
